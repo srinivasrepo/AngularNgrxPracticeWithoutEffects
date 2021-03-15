@@ -1,0 +1,17 @@
+<div align="center" class="mt-5">
+  <mat-form-field class="w-50">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Name" #name>
+  </mat-form-field>
+  <br>
+  <br>
+  <br>
+  <mat-form-field class="w-50">
+    <mat-label>Url</mat-label>
+    <input matInput placeholder="Url" #url>
+  </mat-form-field>
+  <br>
+  <br>
+  <button mat-raised-button color="primary" (click)="addState(name.value, url.value); name.value=url.value=''">Add
+    State</button>
+</div>

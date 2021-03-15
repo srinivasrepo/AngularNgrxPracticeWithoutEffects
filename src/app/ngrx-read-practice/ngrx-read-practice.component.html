@@ -1,0 +1,12 @@
+<div align="center">
+  <table>
+    <ul>
+      <li *ngFor="let item of ngrxPracticeObservable | async; let i = index" class="mb-2 mt-2">
+        <a [href]="item.url" target="_blank" class="mt-2"> {{item.name}} </a>
+        <button mat-raised-button color="warn" (click)="deleteItem(i)">Delete</button>
+      </li>
+      <br>
+      <br>
+    </ul>
+  </table>
+</div>
