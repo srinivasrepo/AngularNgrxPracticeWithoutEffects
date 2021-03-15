@@ -1,3 +1,7 @@
+#Reference 
+https://coursetro.com/posts/code/151/Angular-Ngrx-Store-Tutorial---Learn-Angular-State-Management
+
+
 # NgrxPractice
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
